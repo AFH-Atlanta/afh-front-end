@@ -1,5 +1,10 @@
 # Assessment of Fair Housing for the State of GA - Code for Atlanta
 
+## Style guide
+Use Bootstrap
+Use Semantic HTML
+Do a mobile-first design for each view you create, and be sure it is responsive from mobile thru desktop.
+
 
 ## Installation
 
