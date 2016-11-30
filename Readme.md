@@ -4,6 +4,9 @@
 Use Bootstrap
 Use Semantic HTML
 Do a mobile-first design for each view you create, and be sure it is responsive from mobile thru desktop.
+Make one HTML document for each module in the survey. We are making a multi-page app (not a single page app).
+
+The idea is to keep the tech bar low for new people to get on the team. We want as many people to contribute as possible!
 
 
 ## Installation
