@@ -9,6 +9,7 @@
 ## Style guide
 
 * Use ES6 JavaScript - (Use let, const, etc. instead of var).
+* Make one JavaScript file for each view you work on, and import it and instantiate it into `main.js`. (i.e. break the code for each view into a module)
 * Use Bootstrap and default Bootstrap styles for buttons, etc.
 * Re-use the nav in `index.html` on each page, and place a class of `'active'` for the nav link that corresponds to the view you're working on.
 * Use Semantic HTML
