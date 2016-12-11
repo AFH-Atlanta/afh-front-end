@@ -1,14 +1,18 @@
 # Assessment of Fair Housing for the State of GA - Code for Atlanta
 
 ## Style guide
-Use Bootstrap
-Use Semantic HTML
-Do a mobile-first design for each view you create, and be sure it is responsive from mobile thru desktop.
-Make one HTML document for each module in the survey. We are making a multi-page app (not a single page app).
-Use tabs, not spaces.
-RUN ```npm run lint``` prior to making a pull request.
 
-The idea is to keep the tech bar low for new people to get on the team. We want as many people to contribute as possible!
+* Use ES6 JavaScript - (Use let, const, etc. instead of var).
+* Run `npm install` and `gulp start` to launch your local server and start developing with the included build tools.
+* Use Bootstrap and default Bootstrap styles for buttons, etc.
+* Re-use the nav in `index.html` on each page, and place a class of `'active'` for the nav link that corresponds to the view you're working on.
+* Use Semantic HTML
+* Do a mobile-first design for each view you create, and be sure it is responsive from mobile thru desktop.
+* Make one HTML document for each module in the survey. We are making a multi-page app (not a single page app).
+* Use tabs, not spaces.
+* RUN ```npm run lint``` in your terminal and fix all errors prior to making a pull request.
+
+This project only uses jQuery and Lodash, because the idea is to keep the tech bar low for new people to get on the team. We want as many people to contribute as possible!
 
 
 ## Installation
@@ -16,7 +20,7 @@ The idea is to keep the tech bar low for new people to get on the team. We want 
 #### Prerequisites
 
 Make sure you have an up to date installation of `npm`
-with `brew update` followed by either `brew install npm` or `brew upgrade npm`.
+with `brew update` followed by either `brew install npm` or `brew upgrade npm`. (To do this, you will also need to install homebrew if you haven't already. [Install Homebrew here] (http://brew.sh/)) If you are not running Mac OS, you will need to update `npm` using whatever tool that corresponds to your Windows or other OS setup.
 
 Then use npm to install the following apps with `npm install -g $APP_NAME`
 * `gulp-cli`
