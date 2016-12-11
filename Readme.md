@@ -1,9 +1,14 @@
 # Assessment of Fair Housing for the State of GA - Code for Atlanta
 
+## To Get Started:
+
+* Fork this repo to your own repo.
+* Run `npm install` and `gulp start` to launch your local server and start developing with the included build tools.
+* Make a pull request to the master branch on the AFH-Atlanta/afh-front-end repo.
+
 ## Style guide
 
 * Use ES6 JavaScript - (Use let, const, etc. instead of var).
-* Run `npm install` and `gulp start` to launch your local server and start developing with the included build tools.
 * Use Bootstrap and default Bootstrap styles for buttons, etc.
 * Re-use the nav in `index.html` on each page, and place a class of `'active'` for the nav link that corresponds to the view you're working on.
 * Use Semantic HTML
