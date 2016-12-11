@@ -3,6 +3,7 @@
 ## To Get Started:
 
 * Fork this repo to your own repo.
+* Clone your Fork down to your local machine.
 * Run `npm install` to install all dependencies (see package.json), then `gulp start` to launch your local server and start developing with the included build tools.
 * Once you've pushed code to your Fork, make a pull request to the master branch on the AFH-Atlanta/afh-front-end repo.
 
