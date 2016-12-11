@@ -6,6 +6,7 @@ const gulp        = require('gulp'),
       source      = require('vinyl-source-stream'),
       buffer      = require('vinyl-buffer'),
       browserify  = require('browserify'),
+      uglify      = require('gulp-uglify'),
       notify      = require('gulp-notify'),
       babel       = require('babelify'),
       chalk       = require('chalk'),
@@ -42,6 +43,7 @@ gulp.task('browserify', () => {
     .on('error', handleError)
     .pipe(source('./bundle.js'))
     .pipe(buffer())
+    .pipe(uglify())
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./app/js'));
