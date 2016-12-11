@@ -3,8 +3,8 @@
 ## To Get Started:
 
 * Fork this repo to your own repo.
-* Run `npm install` and `gulp start` to launch your local server and start developing with the included build tools.
-* Make a pull request to the master branch on the AFH-Atlanta/afh-front-end repo.
+* Run `npm install` to install all dependencies (see package.json), then `gulp start` to launch your local server and start developing with the included build tools.
+* Once you've pushed code to your Fork, make a pull request to the master branch on the AFH-Atlanta/afh-front-end repo.
 
 ## Style guide
 
@@ -36,30 +36,9 @@ Finally, I would strongly encourage you to install the `newapp` script from [her
 
 [newapp]: https://gist.github.com/kingcons/a25733c233faf10847cbb4ff557e6843
 
-# Usage
-
-#### If you are using the `newapp` tool
-
-*NOTE:* If you do not use a lowercased project/folder name, the automatic deploy to surge with `npm run deploy` will fail as surge.sh always expects lowercased names.
-
-1. Run `$ newapp template <project name>`
-2. Change in to your new project
-3. Initialize Git `$ git init`
-4. Build
-
-#### If you are NOT using the `newapp` tool
-
-1. Clone down this repo
-2. Rename and change into the project folder
-3. Remove `git` from it `$ rm -rf .git`
-4. Initialize Git `$ git init`
-5. Install the dependencies `$ npm install`
-6. Build 
-
-
 # Features
 
-This template features a couple different tools. First it utalizes both NPM and Gulp for different tasks.
+This template features a couple different tools. First it utilizes both NPM and Gulp for different tasks.
 
 ## Gulp Tasks
 
